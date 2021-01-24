@@ -16,7 +16,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "flexible-torsion-4356-tfstate"
+    bucket = "PROJECT_ID-tfstate"
     prefix = "jenkins"
   }
 }

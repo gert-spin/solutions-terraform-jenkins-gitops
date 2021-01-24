@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "flexible-torsion-4356-tfstate"
     prefix = "env/prod"
   }
 }
